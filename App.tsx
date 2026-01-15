@@ -6,7 +6,7 @@ const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState('inicio');
 
   // URL del logo proporcionado por el usuario
-  const logoUrl = "logo_white-removebg-preview.png";
+  const logoUrl = "https://luiszuniga.4bus.org/images/logo_white-removebg-preview.png";
 
   const SectionTitle = ({ children, subtitle }: { children: React.ReactNode, subtitle?: string }) => (
     <div className="mb-12">
@@ -357,7 +357,7 @@ const App: React.FC = () => {
           <div>
             <div className="flex items-center gap-3 mb-6">
                <img src={logoUrl} alt="Logo Z" className="h-12 w-auto brightness-200" />
-               <h3 className="text-xl font-bold tracking-tight">Z-Labs Bolivia</h3>
+               <h3 className="text-xl font-bold tracking-tight">Luis Zúñiga Bolivia</h3>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">Institución privada de investigación dedicada a cerrar la brecha tecnológica en comunidades andinas y amazónicas.</p>
           </div>
@@ -379,7 +379,7 @@ const App: React.FC = () => {
           </div>
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-           <p className="text-[10px] text-slate-500 font-bold uppercase tracking-widest">© 2024 Z-Labs Research Bolivia • Investigar es sembrar futuro</p>
+           <p className="text-[10px] text-slate-500 font-bold uppercase tracking-widest">© 2026 4BUS S.R.L. Bolivia • Investigar es sembrar futuro</p>
            <div className="flex gap-4">
               <span className="h-2 w-2 rounded-full bg-yellow-500"></span>
               <span className="h-2 w-2 rounded-full bg-green-600"></span>
